@@ -1,2 +1,4 @@
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](cross_mark_0_0005mmsteps_02282024_v3.png)
+![Microscope image of 30 micron cross mark with laser off.](cross_mark_0_0005mmsteps_02282024_v3_nolaser.jpg)
+![Microscope image of 30 micron cross mark with laser on.](cross_mark_0_0005mmsteps_02282024_v3.jpg)
+![Reflection map of 30 micron cross mark.](cross_mark_0_0005mmsteps_02282024_v3.png)
 
