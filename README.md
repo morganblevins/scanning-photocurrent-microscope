@@ -7,4 +7,4 @@ This repository contains the following for the scanning photocurrent microscope 
 
 Reflection map of 30 micron gold cross mark compared to microscope image
 
-![Reflection map of 30 micron cross mark.](initial%reflection%maps/data/cross_mark_0_0005mmsteps_02282024_v3_compare.png)
+![Reflection map of 30 micron cross mark.](initial&#32;reflection&#32;maps/data/cross_mark_0_0005mmsteps_02282024_v3_compare.png)
