@@ -1,14 +1,17 @@
 # SPCM Laboratory Notebook
 
-Klementine Burrell-Sander is a PhD student at the University of Sydney in Sydney, Australia. She is in the [SCOPE](https://github.com/alintheopen/SCOPE) research group led by [Associate Professor Alice Motion](http://alicemotion.com/) and the [Rutledge](https://www.sydney.edu.au/science/chemistry/~rutledge/home.htm) group led by [Professor Peter Rutledge](https://www.sydney.edu.au/science/about/our-people/academic-staff/peter-rutledge.html), and is currently working on the [Open Source TB](https://github.com/OpenSourceTB/) project as well as the [Breaking Good](https://github.com/TheBreakingGoodProject) project. This ELN was started in March 2022. 
+Starting with the "orange" flake on the PbTaSe2 chip 4. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
 
-To navigate this ELN, please start at the Wiki page. This contains a brief summary of the various lines of work being pursued and links to specific reactions.
+![flake_refl_test_camera](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/38e2ec4a-0a4a-44e4-83aa-66895ee68e83)
 
-The best way to find a relevant ELN entry is to start in the Wiki where you can identify the compound/s and which project it belongs to. Opening the project it belongs to in the Projects tab then gives you a list of all the issues that are relevant to that project. Here you can look for those with the identifier for the molecule of interest. Clicking on a given title will take you to the issue for the ELN entry. Each title is categories based on its status - to-do, in progress, complete.
+![flake_refl_test](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/5d307bfe-04dc-4dbc-b712-e6bbfcc5f514)
+
+Next I perform a reflection map of the entire flake now that I see the setup is working. 
+
 
 ## Experiment Identifiers
 
-Experiments conducted for **Open Source Tuberculosis** are identified as follows:
+Experiments conducted for the **Scanning Photocurrent Microscope** (SPCM) are identified as follows:
 
 _KBSX-Y_
 
