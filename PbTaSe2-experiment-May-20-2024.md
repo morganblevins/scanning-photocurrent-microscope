@@ -41,15 +41,13 @@ BSX10 - 90:10 (R:T) UVFS Plate Beamsplitter, Coating: 400-700 nm, t = 5 mm
 
 PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std Flats & 2850 A°±5% Wet Thermal Oxide.
 
-Electrodes fabricated in the MIT Nano lab May 23, 2023 by Morgan Blevins.
+Electrodes fabricated around flakes in the MIT Nano lab May 23, 2023 by Morgan Blevins.
 
+PPMS measurements performed on the "orange" flake by Thanh Ngyu
 
 <img width="676" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f3baff4-8f25-413e-92a7-c0197308f6b1">
 
-
-
 <img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
-
 
 Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
 
@@ -57,33 +55,4 @@ Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to ele
 
 
 Next I perform a reflection map of the entire flake now that I see the setup is working. 
-
-
-
-## Experiment Identifiers
-
-Experiments conducted for the **Scanning Photocurrent Microscope** (SPCM) are identified as follows:
-
-_KBSX-Y_
-
-where
-- KBS is the initials of the experimentalist (Klementine Burrell-Sander)
-- X is a number used to identify the molecule
-- Y is a number that indicates how many times the reaction has been repeated
-
-For example, **KBS19-3** indicates the **third** attempt at synthesising molecule **KBS19**
-
-
-Experiments conducted for The Breaking Good Project are identified as follows:
-
-Year of program
-Underscore
-Program the molecule is contributing to e.g. SSP (The University of Sydney's Special Studies program), BG (breaking good core program)
-Underscore
-One number followed by a letter - the main identifier of the molecule that is being synthesised
-Underscore
-A number which indicates the batch number/number of attempts
-
-For example, **2022_BG_1J_002** describes the **second** attempt at the synthesis of molecule **1J** for the core Breaking Good program ran in **2022**.
-
 
