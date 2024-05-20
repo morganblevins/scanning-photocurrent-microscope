@@ -1,0 +1,11 @@
+GUI APP 
+
+The GUI is broke up into 5 files
+-BBD302_control_keithely2400
+-Connection.m
+-disconnected.m
+-Home.m
+
+The main app is coded in 'GUI.mlapp'.
+
+ 
