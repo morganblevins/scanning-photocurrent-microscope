@@ -1,6 +1,7 @@
-# SPCM Laboratory Notebook
+# SPCM Laboratory Notebook May 20, 2024: PbTaSe2 measurement
 
-**Optical path:**
+## Setup
+### Optical path:
 
 ```mermaid
 graph LR
@@ -16,7 +17,7 @@ A[633 nm laser] -->B(ND filter)
     J --> K[Sample]
 ```
 
-**Optical path components:**
+### Optical path components:
 
 | Item              | Part # | About |
 | :---------------- | :------: | ----: |
@@ -36,7 +37,7 @@ BSW29P - 50:50 UCFS plate beamsplitter 600-1700nm
 BSS10R - 25 x 36 mm 30:70 (R:T) UVFS Plate Beamsplitter, Coating: 400 - 700 nm, t = 1 mm
 BSX10 - 90:10 (R:T) UVFS Plate Beamsplitter, Coating: 400-700 nm, t = 5 mm
 
-**Sample**
+## Sample
 
 PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std Flats & 2850 A°±5% Wet Thermal Oxide.
 
