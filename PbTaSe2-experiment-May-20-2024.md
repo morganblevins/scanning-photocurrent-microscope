@@ -22,11 +22,11 @@ A[633 nm laser] -->B(ND filter)
 | :---------------- | :------: | ----: |
 | 633 nm laser      | PL202	| Compact Laser Module with USB Connector, 635 nm, 0.9 mW (Typ.)  |
 | ND filter, 0.01\% |   NE40A   | Neutral density filter |
-| 1/2 Waveplate    | WPH05ME-633 | Linear polarizer |
-| Beamsplitter 1  | ...   | splits optical path to PMT |
+| 1/2 Waveplate    | WPH05ME-633 | Linear polarizer, -- \% Reflection |
+| Beamsplitter 1  | ...   | Splits optical path to PMT |
 | PMT |  PMTSS   | Standard Sensitivity PMT Module|
-| Beamsplitter 2  |  ...   | ... |
-| Beamsplitter 3  |  ...  | ... |
+| Beamsplitter 2  |  ...   | Adds in white lamp |
+| Beamsplitter 3  |  ...  | Splits between camera and objective |
 | Camera tube    |  WFA4102   | Camera port 0.5x |
 | Camera    |  8051C-USB   | 8 MP Color CCD Camera |
 | Objective |  LMM40X-P01   | 40X Reflective Objective P01 Coating 0.50 NA BFL = Infinity |
@@ -38,7 +38,13 @@ BSX10 - 90:10 (R:T) UVFS Plate Beamsplitter, Coating: 400-700 nm, t = 5 mm
 
 **Sample**
 
-<img width="687" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f1fb4be-7002-4e9a-b930-7ccdd601b388">
+PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std Flats & 2850 A°±5% Wet Thermal Oxide.
+
+Electrodes fabricated in the MIT Nano lab May 23, 2023 by Morgan Blevins.
+
+
+<img width="676" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f3baff4-8f25-413e-92a7-c0197308f6b1">
+
 
 
 <img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
