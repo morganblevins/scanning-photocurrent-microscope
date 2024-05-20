@@ -1,5 +1,36 @@
 # SPCM Laboratory Notebook
 
+Optical path:
+
+```mermaid
+graph LR
+A[633 nm laser] -->B(ND filter)
+    B --> C(1/2 W.P.)
+    C --> D{B.S.}
+    D --> E[PMT]
+    D --> F{B.S.}
+    G[Lamp] --> F
+    F --> H{B.S.}
+    H --> I(Camera)
+    H --> J(Obj.)
+    J --> K[Sample]
+```
+
+Optical path parts:
+
+| Item              | Part # | About |
+| :---------------- | :------: | ----: |
+| 633 nm laser      |   P..   | diode |
+| ND filter, 0.01\%        |   NE40A   | Neutral density filter |
+| 1/2 Waveplate    |   ---   | Linear polarizer |
+| Beamsplitter 1    |  False   | splits optical path to PMT |
+| PMT |  False   | Photomultipler tube, measures refl. |
+| Beamsplitter 2  |   P..   | diode |
+| Beamsplitter 3  |   NE40A   | Neutral density filter |
+| Camera tube    |  False   | splits optical path to PMT |
+| Camera    |  False   | splits optical path to PMT |
+| Objective |  False   | Photomultipler tube, measures refl. |
+
 Starting with the "orange" flake on the PbTaSe2 chip 4. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
 
 ![flake_refl_test_camera](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/38e2ec4a-0a4a-44e4-83aa-66895ee68e83)
