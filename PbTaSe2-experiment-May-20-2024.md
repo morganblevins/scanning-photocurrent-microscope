@@ -1,6 +1,6 @@
 # SPCM Laboratory Notebook
 
-Optical path:
+**Optical path:**
 
 ```mermaid
 graph LR
@@ -16,7 +16,7 @@ A[633 nm laser] -->B(ND filter)
     J --> K[Sample]
 ```
 
-Optical path parts:
+**Optical path components:**
 
 | Item              | Part # | About |
 | :---------------- | :------: | ----: |
@@ -24,11 +24,11 @@ Optical path parts:
 | ND filter, 0.01\% |   NE40A   | Neutral density filter |
 | 1/2 Waveplate    | WPH05ME-633 | Linear polarizer |
 | Beamsplitter 1  | ...   | splits optical path to PMT |
-| PMT |  PMTSS   | Standard Sensitivity PMT Module, measures refl. |
-| Beamsplitter 2  |  ...   | diode |
-| Beamsplitter 3  |  ...  | Neutral density filter |
+| PMT |  PMTSS   | Standard Sensitivity PMT Module|
+| Beamsplitter 2  |  ...   | ... |
+| Beamsplitter 3  |  ...  | ... |
 | Camera tube    |  WFA4102   | Camera port 0.5x |
-| Camera    |  False   | splits optical path to PMT |
+| Camera    |  8051C-USB   | 8 MP Color CCD Camera |
 | Objective |  LMM40X-P01   | 40X Reflective Objective P01 Coating 0.50 NA BFL = Infinity |
 
 BSW04 - Ø1/2" 50:50 UVFS Plate Beamsplitter, 400-700nm, t=3mm
@@ -36,14 +36,21 @@ BSW29P - 50:50 UCFS plate beamsplitter 600-1700nm
 BSS10R - 25 x 36 mm 30:70 (R:T) UVFS Plate Beamsplitter, Coating: 400 - 700 nm, t = 1 mm
 BSX10 - 90:10 (R:T) UVFS Plate Beamsplitter, Coating: 400-700 nm, t = 5 mm
 
+**Sample**
 
-Starting with the "orange" flake on the PbTaSe2 chip 4. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
+<img width="687" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f1fb4be-7002-4e9a-b930-7ccdd601b388">
 
-![flake_refl_test_camera](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/38e2ec4a-0a4a-44e4-83aa-66895ee68e83)
 
-![flake_refl_test](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/5d307bfe-04dc-4dbc-b712-e6bbfcc5f514)
+<img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
+
+
+Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
+
+<img width="777" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/fa484179-6312-4ef2-a536-3d8fb74771e6">
+
 
 Next I perform a reflection map of the entire flake now that I see the setup is working. 
+
 
 
 ## Experiment Identifiers
