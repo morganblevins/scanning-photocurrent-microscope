@@ -20,16 +20,20 @@ Optical path parts:
 
 | Item              | Part # | About |
 | :---------------- | :------: | ----: |
-| 633 nm laser      |   P..   | diode |
-| ND filter, 0.01\%        |   NE40A   | Neutral density filter |
+| 633 nm laser      | PL202	| Compact Laser Module with USB Connector, 635 nm, 0.9 mW (Typ.)  |
+| ND filter, 0.01\% |   NE40A   | Neutral density filter |
 | 1/2 Waveplate    |   ---   | Linear polarizer |
 | Beamsplitter 1    |  False   | splits optical path to PMT |
-| PMT |  False   | Photomultipler tube, measures refl. |
+| PMT |  PMTSS   | Standard Sensitivity PMT Module, measures refl. |
 | Beamsplitter 2  |   P..   | diode |
 | Beamsplitter 3  |   NE40A   | Neutral density filter |
-| Camera tube    |  False   | splits optical path to PMT |
+| Camera tube    |  WFA4102   | Camera port 0.5x |
 | Camera    |  False   | splits optical path to PMT |
-| Objective |  False   | Photomultipler tube, measures refl. |
+| Objective |  LMM40X-P01   | 40X Reflective Objective P01 Coating 0.50 NA BFL = Infinity |
+
+BSW04 - Ø1/2" 50:50 UVFS Plate Beamsplitter, 400-700nm, t=3mm
+BSW29P - 50:50 UCFS plate beamsplitter 600-1700nm
+
 
 Starting with the "orange" flake on the PbTaSe2 chip 4. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
 
