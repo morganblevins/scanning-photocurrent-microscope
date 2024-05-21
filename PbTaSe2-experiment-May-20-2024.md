@@ -7,11 +7,11 @@
 graph LR
 A[633 nm laser] -->B(ND filter)
     B --> C(1/2 W.P.)
-    C --> D{B.S.}
+    C --> D{B.S. 1}
     D --> E[PMT]
-    D --> F{B.S.}
+    D --> F{B.S. 2}
     G[Lamp] --> F
-    F --> H{B.S.}
+    F --> H{B.S. 3}
     H --> I(Camera)
     H --> J(Obj.)
     J --> K[Sample]
@@ -26,6 +26,7 @@ A[633 nm laser] -->B(ND filter)
 | 1/2 Waveplate    | WPH05ME-633 | Linear polarizer, -- \% Reflection |
 | Beamsplitter 1  | ...   | Splits optical path to PMT |
 | PMT |  PMTSS   | Standard Sensitivity PMT Module|
+| lamp  |  ...   | White lamp |
 | Beamsplitter 2  |  ...   | Adds in white lamp |
 | Beamsplitter 3  |  ...  | Splits between camera and objective |
 | Camera tube    |  WFA4102   | Camera port 0.5x |
