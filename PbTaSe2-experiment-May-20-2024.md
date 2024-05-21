@@ -49,10 +49,11 @@ PPMS measurements performed on the "orange" flake by Thanh Ngyu
 
 <img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
 
-Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working.
+Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working and confirm that there is no burning when no current is being measured.
 
 <img width="777" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/fa484179-6312-4ef2-a536-3d8fb74771e6">
 
 
 Next I perform a reflection map of the entire flake now that I see the setup is working. 
 
+<img width="910" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/3d2eebed-d813-4fbd-afca-ddf2d8fb2d02">
