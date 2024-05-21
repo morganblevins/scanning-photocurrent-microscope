@@ -54,7 +54,11 @@ Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to ele
 
 <img width="777" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/fa484179-6312-4ef2-a536-3d8fb74771e6">
 
-
 Next I perform a reflection map of the entire flake now that I see the setup is working. 
 
 <img width="910" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/3d2eebed-d813-4fbd-afca-ddf2d8fb2d02">
+
+## May 21, 2024
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/75425eaa-03d8-4928-bf89-b9d842cb13c8)
+
