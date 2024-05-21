@@ -1,1 +1,1 @@
-Mezzanine PCB designed by Jacqueline Wang during Spring 2024 UROP
+Mezzanine PCB designed by Jacqueline Wang during Spring 2024 UROP using KiCAD
