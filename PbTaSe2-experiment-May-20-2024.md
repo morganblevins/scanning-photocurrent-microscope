@@ -62,3 +62,8 @@ Next I perform a reflection map of the entire flake now that I see the setup is 
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/75425eaa-03d8-4928-bf89-b9d842cb13c8)
 
+## May 23, 2024
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0b2c41d4-314c-457a-8ab4-90acad14cf45)
+
+
