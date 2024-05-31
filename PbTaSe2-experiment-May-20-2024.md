@@ -76,3 +76,10 @@ First ever attempt with the board suspended, I used the PbTaSe2_052323-4 chip. A
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/ccef4f0e-2a42-46ee-b2f1-f199438e965d)
 
+![PbTaSe2_052323-4_SPCM_result_2024-05-30-2130](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/cd6f70bd-fdc7-446d-badc-d35d9f423a94)
+
+I don't intially recognize this shape, it does kind of appear to be the flake and electrode interface. I am now running a measurement over the same area but with no laser on to get a control. Uh oh, so I do see a sort of statified current measurement coming through in the same way. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. 
+
+The lines that aren't with the trend are when I tried to place the EMI shield/ put my hand in front:
+![NoLaser_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/b1894429-7955-4872-906d-bc582d16f01b)
+
