@@ -91,4 +91,6 @@ EMI sheilding from ThorLabs does not seem to help at all.My hand is more effecti
 
 Reconfirmed that distance between board and stage is really helping -- signal goes WAY up when they are close, despite low velocity.
 
+recall that i even picked up bad signals when measuring a resister as it was moved on the stage.
 
+Motion vs. EMI. distance from stage makes it better-. EMI?
