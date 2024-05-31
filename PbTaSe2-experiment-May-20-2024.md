@@ -87,3 +87,4 @@ I don't intially recognize this shape, it does kind of appear to be the flake an
 The lines that aren't with the trend are when I tried to place the EMI shield/ put my hand in front:
 ![NoLaser_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/b1894429-7955-4872-906d-bc582d16f01b)
 
+EMI sheilding from ThorLabs does not seem to help at all.My hand is more effective.
