@@ -66,4 +66,13 @@ Next I perform a reflection map of the entire flake now that I see the setup is 
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0b2c41d4-314c-457a-8ab4-90acad14cf45)
 
+## May 30, 2024
+Last week I realized there was some stray signal coming from the X-Y MLS203 stage interferring with the current measurement from the board. This gave huge (hundreds of nanoAmps) currents that would spike out the measurement and make it uninterprittable. With some trial and error I found that (1) slowing the motors down to super low velocites and (2) raising the board several inches above the stage combined seem to get rid of this signal.
+
+Here is an updated picture of the setup (current two PCBs stacked since I have to soldier a new m.2 connector on the verion2 mainboards (version 1 was too small):
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/56c387b6-159b-436a-a487-a3b143609f13)
+
+First ever attempt with the board suspended, I used the PbTaSe2_052323-4 chip.
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/ccef4f0e-2a42-46ee-b2f1-f199438e965d)
 
