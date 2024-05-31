@@ -94,3 +94,8 @@ Reconfirmed that distance between board and stage is really helping -- signal go
 recall that i even picked up bad signals when measuring a resister as it was moved on the stage.
 
 Motion vs. EMI. distance from stage makes it better-. EMI?
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/28a807bf-7270-464e-8166-eaaa981ae188)
+
+
+![LaserOn_10inup_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0739b5db-e1d8-4912-8ae9-d1875ef616f0)
