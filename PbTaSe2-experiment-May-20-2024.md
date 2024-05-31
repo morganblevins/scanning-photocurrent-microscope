@@ -72,7 +72,7 @@ Last week I realized there was some stray signal coming from the X-Y MLS203 stag
 Here is an updated picture of the setup (current two PCBs stacked since I have to soldier a new m.2 connector on the verion2 mainboards (version 1 was too small):
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/56c387b6-159b-436a-a487-a3b143609f13)
 
-First ever attempt with the board suspended, I used the PbTaSe2_052323-4 chip.
+First ever attempt with the board suspended, I used the PbTaSe2_052323-4 chip. Actually looks like I'm getting a signal, but I'm going to now modify the code to measure reflection simultaneously. 
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/ccef4f0e-2a42-46ee-b2f1-f199438e965d)
 
