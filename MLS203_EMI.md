@@ -74,8 +74,8 @@ Mounted on the final PCB setup:
 
 <img width="500" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0b2c41d4-314c-457a-8ab4-90acad14cf45">
 
+## Attempt to measure photocurrent: Electromagnetic Inference
 
-## May 30, 2024
 Last week I realized there was some stray signal coming from the X-Y MLS203 stage interferring with the current measurement from the board. This gave huge (hundreds of nanoAmps) currents that would spike out the measurement and make it uninterprittable. With some trial and error I found that (1) slowing the motors down to super low velocites and (2) raising the board several inches above the stage combined seem to get rid of this signal.
 
 Using: 
@@ -85,26 +85,25 @@ velParams.MaxVelocity = 100;
 Here is an updated picture of the setup (current two PCBs stacked since I have to soldier a new m.2 connector on the verion2 mainboards (version 1 was too small):
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/56c387b6-159b-436a-a487-a3b143609f13)
 
-First ever attempt with the board suspended, I used the PbTaSe2_052323-4 chip. Actually looks like I'm getting a signal, but I'm going to now modify the code to measure reflection simultaneously. 
+First ever attempt with the board suspended, using the laser and illuminating the PbTaSe2_052323-4 chip. Actually looks like I'm getting a signal, but I'm going to now modify the code to measure reflection simultaneously. 
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/ccef4f0e-2a42-46ee-b2f1-f199438e965d)
 
 ![PbTaSe2_052323-4_SPCM_result_2024-05-30-2130](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/cd6f70bd-fdc7-446d-badc-d35d9f423a94)
 
-I don't intially recognize this shape, it does kind of appear to be the flake and electrode interface. I am now running a measurement over the same area but with no laser on to get a control. Uh oh, so I do see a sort of statified current measurement coming through in the same way. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. 
+I don't intially recognize this shape, it does kind of appear to be the flake and electrode interface BUT I believe it is actually EMI. I will next run a measurement over the same area but with no laser on to get a control.
 
-The lines that aren't with the trend are when I tried to place the EMI shield/ put my hand in front:
 ![NoLaser_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/b1894429-7955-4872-906d-bc582d16f01b)
 
-EMI sheilding from ThorLabs does not seem to help at all.My hand is more effective.
+Uh oh, so I do see a sort of statified current measurement coming through in the same way. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. The lines in the plots above that aren't with the trend are when I tried to place the EMI shield/ put my hand in front.
 
-Reconfirmed that distance between board and stage is really helping -- signal goes WAY up when they are close, despite low velocity.
+Notes on trying to mitigate EMI:
 
-recall that i even picked up bad signals when measuring a resister as it was moved on the stage.
-
-Motion vs. EMI. distance from stage makes it better-. EMI?
+- EMI sheilding from ThorLabs does not seem to help at all (at least the 1 layer I used). My hand is more effective.
+- Distance from stage makes it better
+- Reconfirmed that distance between board and stage is really helping -- signal goes WAY up when they are close, despite low velocity.
+- Recall that I even picked up bad signals when measuring a resister as it was moved on the stage, so it does not seem to be an issue with my PbTaSe2 sample.
 
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/28a807bf-7270-464e-8166-eaaa981ae188)
-
 
 ![LaserOn_10inup_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0739b5db-e1d8-4912-8ae9-d1875ef616f0)
