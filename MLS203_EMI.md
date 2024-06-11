@@ -1,6 +1,10 @@
-# SPCM Laboratory Notebook May 20, 2024: PbTaSe2 measurement
+## Scanning Photocurrent Microscope Laboratory Notebook
+### May 20, 2024: Possible electromagnetic inferference on PbTaSe2 photocurrent measurement
+This lab notebook documents my setup and measurements for measuring spontaneous photocurrents in single crystal samples that are prepared in the nanofab. The principle and goal of this experiment is presented in the following papers:
 
-## Setup
+1. [Nonlinear photoresponse of type-II Weyl semimetals]([url](https://doi.org/10.1038/s41563-019-0296-5))
+2. 
+
 ### Optical path:
 
 ```mermaid
@@ -32,11 +36,6 @@ A[633 nm laser] -->B(ND filter)
 | Camera tube    |  WFA4102   | Camera port 0.5x |
 | Camera    |  8051C-USB   | 8 MP Color CCD Camera |
 | Objective |  LMM40X-P01   | 40X Reflective Objective P01 Coating 0.50 NA BFL = Infinity |
-
-BSW04 - Ø1/2" 50:50 UVFS Plate Beamsplitter, 400-700nm, t=3mm
-BSW29P - 50:50 UCFS plate beamsplitter 600-1700nm
-BSS10R - 25 x 36 mm 30:70 (R:T) UVFS Plate Beamsplitter, Coating: 400 - 700 nm, t = 1 mm
-BSX10 - 90:10 (R:T) UVFS Plate Beamsplitter, Coating: 400-700 nm, t = 5 mm
 
 ## Sample
 
