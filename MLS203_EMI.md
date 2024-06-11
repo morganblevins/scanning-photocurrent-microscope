@@ -2,8 +2,8 @@
 ### May 20, 2024: Possible electromagnetic inferference on PbTaSe2 photocurrent measurement
 This lab notebook documents my setup and measurements for measuring spontaneous photocurrents in single crystal samples that are prepared in the nanofab. The principle and goal of this experiment is presented in the following papers:
 
-1. [Nonlinear photoresponse of type-II Weyl semimetals]([url](https://doi.org/10.1038/s41563-019-0296-5))
-2. 
+1. [Ma, J., Gu, Q., Liu, Y. et al. Nonlinear photoresponse of type-II Weyl semimetals. Nat. Mater. 18, 476–481 (2019). https://doi.org/10.1038/s41563-019-0296-5]([url](https://doi.org/10.1038/s41563-019-0296-5))
+2. [Jiang, J., Chen, Z., Hu, Y. et al. Flexo-photovoltaic effect in MoS2. Nat. Nanotechnol. 16, 894–901 (2021). https://doi.org/10.1038/s41565-021-00919-y]([url](https://doi.org/10.1038/s41565-021-00919-y)) 
 
 ### Optical path:
 
