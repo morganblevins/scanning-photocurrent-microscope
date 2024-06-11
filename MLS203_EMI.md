@@ -3,9 +3,36 @@
 This lab notebook documents my setup and measurements for measuring spontaneous photocurrents in single crystal samples that are prepared in the nanofab. The principle and goal of this experiment is presented in the following papers:
 
 1. [Ma, J., Gu, Q., Liu, Y. et al. Nonlinear photoresponse of type-II Weyl semimetals. Nat. Mater. 18, 476–481 (2019). https://doi.org/10.1038/s41563-019-0296-5]([url](https://doi.org/10.1038/s41563-019-0296-5))
-2. [Jiang, J., Chen, Z., Hu, Y. et al. Flexo-photovoltaic effect in MoS2. Nat. Nanotechnol. 16, 894–901 (2021). https://doi.org/10.1038/s41565-021-00919-y]([url](https://doi.org/10.1038/s41565-021-00919-y)) 
+2. [Jiang, J., Chen, Z., Hu, Y. et al. Flexo-photovoltaic effect in MoS2. Nat. Nanotechnol. 16, 894–901 (2021). https://doi.org/10.1038/s41565-021-00919-y]([url](https://doi.org/10.1038/s41565-021-00919-y))
+
+### Experimental principle/examples
+
+- Spatially local photoinduced current (local photocurrent) 
+- Generated in a tight laser beam spot 
+- Sensed far away at remote current-collecting–voltage-sensing contact
+- Depending on laser power, the magnitude of current can be in the nanoAmp to microAmp range
+
+<figure>
+    <img src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/f01b486e-2573-4752-b6ac-43d78c515b78"
+         alt="Scanning photocurrent principle"
+        width = "900" >
+</figure>
+
+*Scanning photocurrent principle.*
+
+<figure>
+    <img src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/24b6ffe9-5e91-4036-8dfd-882855dd9ee4"
+         alt="Scanning photocurrent principle"
+         width = "300" >
+</figure>
+
+*The goal result of a SPCM measurement: a spatial map of photocurrent.*
+
+ <img width="587" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/20010a60-e4b4-43fd-8116-384376d66e52">
 
 ### Optical path:
+
+<img width="747" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/820d941c-c8f5-4c3d-bd42-c0ff14cfaad6">
 
 ```mermaid
 graph LR
@@ -21,7 +48,7 @@ A[633 nm laser] -->B(ND filter)
     J --> K[Sample]
 ```
 
-### Optical path components:
+### Optical components:
 
 | Item              | Part # | About |
 | :---------------- | :------: | ----: |
