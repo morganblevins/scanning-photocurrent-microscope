@@ -93,14 +93,18 @@ First ever attempt with the board suspended, using the laser and illuminating th
 
 I don't intially recognize this shape, it does kind of appear to be the flake and electrode interface BUT I believe it is actually EMI. I will next run a measurement over the same area but with no laser on to get a control.
 
+Current measurement when the flake is **NOT illuminated**. The expected map would just show constant noise, so it should just be a uniform color:
+
 ![NoLaser_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/b1894429-7955-4872-906d-bc582d16f01b)
 
-Uh oh, so I do see a sort of statified current measurement coming through in the same way. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. The lines in the plots above that aren't with the trend are when I tried to place the EMI shield/ put my hand in front.
+Uh oh, so I see a sort of **statified current measurement** coming through in the same way, when I *should* just see noise/a uniform measurement. This is evidence than an EMI signal is coming from the MLS203. You see the same magnitude of EMI at the same y-position. X-poistion doesn't seem to have a pattern of EMI. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. The lines in the plots above that aren't with the trend are when I tried to place the EMI shield/ put my hand in front.
 
 Notes on trying to mitigate EMI:
 
 - EMI sheilding from ThorLabs does not seem to help at all (at least the 1 layer I used). My hand is more effective.
 - Distance from stage makes it better
+- The PCB doesn't need to be touching the MLS203 for this interference to happen
+- When MLS203 is OFF I see no interference. 
 - Reconfirmed that distance between board and stage is really helping -- signal goes WAY up when they are close, despite low velocity.
 - Recall that I even picked up bad signals when measuring a resister as it was moved on the stage, so it does not seem to be an issue with my PbTaSe2 sample.
 
