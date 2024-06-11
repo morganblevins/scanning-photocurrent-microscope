@@ -18,15 +18,7 @@ This lab notebook documents my setup and measurements for measuring spontaneous 
         width = "900" >
 </figure>
 
-*Scanning photocurrent principle.*
-
-<figure>
-    <img src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/24b6ffe9-5e91-4036-8dfd-882855dd9ee4"
-         alt="Scanning photocurrent principle"
-         width = "300" >
-</figure>
-
-*The goal result of a SPCM measurement: a spatial map of photocurrent.*
+*Scanning photocurrent principle and the goal result of a SPCM measurement: a spatial map of photocurrent.*
 
  <img width="587" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/20010a60-e4b4-43fd-8116-384376d66e52">
 
@@ -66,31 +58,22 @@ A[633 nm laser] -->B(ND filter)
 
 ## Sample
 
-PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std Flats & 2850 A°±5% Wet Thermal Oxide.
+PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std Flats & 2850 A°±5% Wet Thermal Oxide. Electrodes fabricated around flakes in the MIT Nano lab May 23, 2023 by Morgan Blevins.
 
-Electrodes fabricated around flakes in the MIT Nano lab May 23, 2023 by Morgan Blevins.
+<img width="400" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f3baff4-8f25-413e-92a7-c0197308f6b1">
 
-PPMS measurements performed on the "orange" flake by Thanh Ngyu
+<img width="400" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
 
-<img width="676" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/2f3baff4-8f25-413e-92a7-c0197308f6b1">
+<img width="500" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/75425eaa-03d8-4928-bf89-b9d842cb13c8">
 
-<img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
+Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick **reflection** map of the entire flake to confirm that the setup is working in reflection mode:
 
-Starting with the "blue" flake on the PbTaSe2 chip 4, which is wirebonded to electrodes 4,5, 20, 21, and 22. First I do a quick reflection map of a flake that is not part of the circuit to confirm the system is working and confirm that there is no burning when no current is being measured.
+<img width="500" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/3d2eebed-d813-4fbd-afca-ddf2d8fb2d02">
 
-<img width="777" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/fa484179-6312-4ef2-a536-3d8fb74771e6">
+Mounted on the final PCB setup:
 
-Next I perform a reflection map of the entire flake now that I see the setup is working. 
+<img width="500" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0b2c41d4-314c-457a-8ab4-90acad14cf45">
 
-<img width="910" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/3d2eebed-d813-4fbd-afca-ddf2d8fb2d02">
-
-## May 21, 2024
-
-![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/75425eaa-03d8-4928-bf89-b9d842cb13c8)
-
-## May 23, 2024
-
-![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0b2c41d4-314c-457a-8ab4-90acad14cf45)
 
 ## May 30, 2024
 Last week I realized there was some stray signal coming from the X-Y MLS203 stage interferring with the current measurement from the board. This gave huge (hundreds of nanoAmps) currents that would spike out the measurement and make it uninterprittable. With some trial and error I found that (1) slowing the motors down to super low velocites and (2) raising the board several inches above the stage combined seem to get rid of this signal.
