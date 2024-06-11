@@ -97,7 +97,7 @@ Current measurement when the flake is **NOT illuminated**. The expected map woul
 
 ![NoLaser_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/b1894429-7955-4872-906d-bc582d16f01b)
 
-Uh oh, so I see a sort of **statified current measurement** coming through in the same way, when I *should* just see noise/a uniform measurement. This is evidence than an EMI signal is coming from the MLS203. You see the same magnitude of EMI at the same y-position. X-poistion doesn't seem to have a pattern of EMI. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. The lines in the plots above that aren't with the trend are when I tried to place the EMI shield/ put my hand in front.
+Uh oh, so I see a sort of **statified current measurement** coming through in the same way, when I *should* just see noise/a uniform measurement. This is evidence than an EMI signal is coming from the MLS203. You see the same magnitude of EMI at the same y-position, creating a sort of field pattern perhaps. The x-poistion doesn't seem to have a pattern of EMI. I just put my hand in between the board and stage and saw the signal dip. Gonna go get the EMI shielding from Thorlabs. The lines in the plots above that aren't with the trend are when I tried to place the EMI shield/ put my hand in front.
 
 Notes on trying to mitigate EMI:
 
