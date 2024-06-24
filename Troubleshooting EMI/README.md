@@ -112,8 +112,27 @@ Notes on trying to mitigate EMI:
 
 ![LaserOn_10inup_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0739b5db-e1d8-4912-8ae9-d1875ef616f0)
 
+# June 21st, 2024
+Testing the EMI with an Electromagnetic Field 
+
 # June 24th, 2024
 Built a Faraday cage to see if it gets rid of noise pattern.
-
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/a468240c-8f1a-4d98-8f2f-bc81744a67ca)
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0881e849-ee19-48ec-8952-4dd5edf9ab00)
+Okay, so the Faraday cage did not actually fix the signal!! 
+
+Now when I measure the signal when the XY stage is moving, I see that there is in fact a nonzero electromagnetic signal in the low frequency range. It appears to indeed be 10 Hz.
+
+OK- it appears the issue was the RF interference with the wire, I placed the Electromagnetic Field tester in the setup while the map was running and saw a little jump in the masurement of RF everything the stage was at the peak in current signal along the path- do i knew that RF was getting into the cage somehow at that point. I then covered the holw SMA to BNC cable with the braided tinned copper that I ordered and WOW!!! The signal is finally gone. YAY. So the below meausmrent begins on the right side where the setup was sitting in the bent Mu-metal make shift cage and then at around +3 microns I pasued the measurement and moved it to the Faraday cage and BOOM barely ANY noise. This is AWESOME.
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/c097b1ee-a2b5-47bb-abfc-bcfbf106be8e)
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/77e8ab2d-976a-4ed2-ac7b-8d2923769663)
+
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0466db0c-27e0-4684-8a9c-7b727595bfc0)
+
+Round 2:
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/e9f6c279-2268-4762-8474-c986aab78d60)
+Round 3:
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/6c35aba5-b457-4a7d-9576-d730d1070fe6)
