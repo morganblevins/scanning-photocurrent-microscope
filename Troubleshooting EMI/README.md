@@ -111,3 +111,9 @@ Notes on trying to mitigate EMI:
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/28a807bf-7270-464e-8166-eaaa981ae188)
 
 ![LaserOn_10inup_SPCM_result_2024-05-30-1000](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0739b5db-e1d8-4912-8ae9-d1875ef616f0)
+
+# June 24th, 2024
+Built a Faraday cage to see if it gets rid of noise pattern.
+
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/a468240c-8f1a-4d98-8f2f-bc81744a67ca)
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/0881e849-ee19-48ec-8952-4dd5edf9ab00)
