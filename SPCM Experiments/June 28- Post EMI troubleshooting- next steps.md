@@ -64,6 +64,7 @@ This flake has falled off of the substrate. I don't know how it fell off but I t
 <img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
 
 # July 1st update
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/115e2345-3378-40e2-a282-32ffea2bf4cc)
 
 **UPDATES**
 - Soldered on a new M.2 connector so I have a good mainboard PCB wb 
@@ -74,3 +75,22 @@ This flake has falled off of the substrate. I don't know how it fell off but I t
 - If I turned it slowly, I got to the point when rotating the HWP did NOT seem to move the beam spot, which is a sign of alignment. 
 - I think I can go forward with testing the Bi2Te3 sample tomorrow, I may not trust the coninuity of power as I sweep polarization but I can get a qualitative picture.
 - The power meter is pretty annoying-- either the power of the PL202 is super jumpy or the meter is off. I'm gonna ask Mathias if he has a meter I could briefly borrow.
+
+Current path:
+```mermaid
+graph LR
+A[633 nm laser] -->AA(ND filter)
+    AA --> BB(Iris)
+    BB --> B(Lin. Pol.)
+    B --> C(H.W.P.)
+    C --> CC(Lin. Pol.)
+    CC --> D{B.S. 1}
+    D --> E[PMT]
+    D --> DD(Iris)
+    DD --> F{B.S. 2}
+    G[Lamp] --> F
+    F --> H{B.S. 3}
+    H --> I(Camera)
+    H --> J(Obj.)
+    J --> K[Sample]
+```
