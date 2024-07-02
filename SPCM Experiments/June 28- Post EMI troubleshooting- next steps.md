@@ -63,3 +63,14 @@ The PbTaSe2 from 2DSemiconductor.com, deposited on HS39626-WO: SSP w/2 Semi-Std 
 This flake has falled off of the substrate. I don't know how it fell off but I think I needed to be more carefull of how I stored it between measurements, I think it was possibly blown off due to the AC in the lab or it was bumped and I didn't realize. 
 <img width="647" alt="image" src="https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/80c6a184-9f9a-4ee1-95b4-d3fe15a23738">
 
+# July 1st update
+
+**UPDATES**
+- Soldered on a new M.2 connector so I have a good mainboard PCB wb 
+- Have a better screw connector to the mezzanine bpard
+- Bi2Te3 and PbTaSe2 samples are wirebonded and ready to test, TaIrTe4 couldn't wirebond
+- I made big improvements to alignment: had to better align the beam between the WFA2400 and the objective. Also need to have a lin. polarizer infront on the laser diode followed by the half-wave plate. And I now have an iris right in fron of the laser and then right before the WFA. I also removed the insert from the WFA2400 and added cage rails to test alignment way further out and this is what reallly improve the alignment down to the objective.
+- Now the biggest issue is just the beam size of the PL202 as compared to the entry on the objective, I think I need to finally hook up the HeNe. Will need to decide how to attenuate the power (either get a [new laser](https://www.thorlabs.com/thorproduct.cfm?partnumber=HNLS008L#ad-image-0) or buy a [fiber attenuation kit](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6162) ( about the same price...).
+- If I turned it slowly, I got to the point when rotating the HWP did NOT seem to move the beam spot, which is a sign of alignment. 
+- I think I can go forward with testing the Bi2Te3 sample tomorrow, I may not trust the coninuity of power as I sweep polarization but I can get a qualitative picture.
+- The power meter is pretty annoying-- either the power of the PL202 is super jumpy or the meter is off. I'm gonna ask Mathias if he has a meter I could briefly borrow.
