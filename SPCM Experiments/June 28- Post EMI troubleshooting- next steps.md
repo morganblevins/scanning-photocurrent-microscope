@@ -65,6 +65,7 @@ This flake has falled off of the substrate. I don't know how it fell off but I t
 
 # July 1st update
 ![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/115e2345-3378-40e2-a282-32ffea2bf4cc)
+![image](https://github.com/morganblevins/scanning-photocurrent-microscope/assets/75329182/16dcbd88-6592-45ef-91ca-cfbd9c87021e)
 
 **UPDATES**
 - Soldered on a new M.2 connector so I have a good mainboard PCB wb 
