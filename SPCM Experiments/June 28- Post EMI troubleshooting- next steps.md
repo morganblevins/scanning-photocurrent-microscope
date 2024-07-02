@@ -82,8 +82,7 @@ graph LR
 A[633 nm laser] -->AA(ND filter)
     AA --> BB(Iris)
     BB --> B(Lin. Pol.)
-    B --> C(H.W.P.)
-    C --> CC(Lin. Pol.)
+    B --> CC(H.W.P.)
     CC --> D{B.S. 1}
     D --> E[PMT]
     D --> DD(Iris)
