@@ -13,5 +13,6 @@ SPCM studies are key to understanding the origins of the photogalvanic effect (P
 Additionally, the PGE can be unlocked in centrosymmetric materials by engineering strain gradients into the materials, a technique called “flexoelectricity”. SPCM measurements of photocurrents in these samples are especially important for understanding this effect and identifying flexoelectric coefficient in candidate materials.
  
 From Lai et al 2022: (d) Scanning reflection image and (e,f) photocurrent microscopy images of a TaIrTe4 device with U-shaped electrodes at room temperature with 633 nm (e) and 4 µm (f) excitation. 
+
 ![image](https://github.com/user-attachments/assets/0c0fddc9-9a13-4ec6-be79-d8f84b454d76)
 
